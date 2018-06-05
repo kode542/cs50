@@ -3,7 +3,7 @@ B = None
 C = 0.0039788735772971
 pi = 3.14159265359
 
-def calc(A = None , B = None , C = None):
+def calc(A ,B ,C):
     
     if(A == None and B != None and C != None):
         r1 = 1/C
